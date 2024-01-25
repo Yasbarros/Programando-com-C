@@ -1,0 +1,10 @@
+#include <stdio.h> 
+
+int main(){
+    float m , k;
+    printf("\nDigite a velocidade em milhas: ");
+    scanf("%f", &m);
+    k = m * 1.61;
+    printf("\nA velocidade em quilometros = %f\n", k);
+    return 0;
+}

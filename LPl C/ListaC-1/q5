@@ -1,0 +1,13 @@
+#include <stdio.h> 
+
+int main(){
+    float k , m;
+    printf("Digite uma velocidade em km/h: ");
+    scanf("%f", &k);
+    
+    m = k/3.6;
+    
+    printf("A velocidade convertida para m/s é: %.1f", m);
+    
+    return 0;
+}

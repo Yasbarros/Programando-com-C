@@ -1,0 +1,13 @@
+#include <stdio.h> 
+
+int main(){
+    float f,c;
+    printf("Digite uma temperatura em fahrenheit: ");
+    scanf("%f", &f);
+    
+    c = 5 * ((f-32)/9);
+    
+    printf("A temperatura convertda para Celsius é: %f", c);
+    
+    return 0;
+}
